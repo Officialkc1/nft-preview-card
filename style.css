@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+    font-size: 15px;
+    background-color: #0d192b;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.card {
+    width: 375px;
+    background-color: #14253d;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.card figure{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card .big img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    align-items: baseline;
+}
+
+h2 {
+    color:  #ffffff;
+    margin-top: 10px;
+    text-align: left;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.ethereum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+}
+
+.ethereum img {
+    size: 1px;
+}
+
+.big img:hover {
+    background-image: url(./design/active-states.jpg);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.time img {
+    size: 10px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.ethereum h3 {
+    color: #00fff7;
+}
+
+.time h3 {
+    color: #8bacda;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #fff;
+    margin: 20px;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.creator img {
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+    margin-top: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.creator span {
+    color: #ffffff;
+    transition: color 0.35s;
+}
+
+.creator span:hover {
+    color: #00fff7;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #8bacda;
+    margin: 10px;
+}
+
+.attribution a {
+    color: #8bacda;
+    transition: color 0.35s;
+}
+
+.attribution a:hover {
+    color: white;
+  }
+  
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
