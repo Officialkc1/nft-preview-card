@@ -101,7 +101,7 @@ p {
 }
 
 .time img {
-    size: 10px;
+    size: 9px;
 }
 
 h3 {
@@ -113,6 +113,7 @@ h3 {
 }
 
 .time h3 {
+    font-size: 13.5px;
     color: #8bacda;
 }
 
@@ -158,8 +159,20 @@ h3 {
 .attribution a:hover {
     color: white;
   }
-  
-
 
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em){
+
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {...}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {...}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {...}
